@@ -1,0 +1,23 @@
+#+title: OP SYS note
+#+author: Cynthia Lu
+#+date: 2021-09-21
+
+* C Basics
+
+** Hello World
+hello-world.c file
+
+#+begin_src c
+#include <stdio.h>
+int main() {
+
+    printf("Hello, World! To Operating Systems");
+    return 0;
+}
+#+end_src
+
+Execute hello-world.c
+#+begin_src bash
+gcc -Wall [filename].c -o [filename]
+./[filename]
+#+end_src
